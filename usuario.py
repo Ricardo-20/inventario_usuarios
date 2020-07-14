@@ -17,8 +17,3 @@ class Usuario:
         self.__password=password
     def __str__(self):
         return "ID_usuario: {0}| user: {1}| password: {2}".format(self.__id_usuario, self.__username,self.__password)
-if __name__=='__main__':
-    user1=Usuario('richi','12345')
-    print(user1)
-    user2=Usuario('ringo','54321')
-    print(user2)
